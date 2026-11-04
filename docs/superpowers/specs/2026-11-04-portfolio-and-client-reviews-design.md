@@ -90,3 +90,4 @@ Constraint unik: `UNIQUE(project_id)` agar setiap proyek hanya memiliki satu ula
    - Admin menambah portofolio baru -> langsung muncul di Landing Page.
    - Admin mengubah status proyek klien ke tahap 5 -> form ulasan aktif di dashboard klien.
    - Klien mengirim review -> muncul di dashboard admin -> admin klik setujui -> muncul di Landing Page.
+

@@ -2,8 +2,9 @@ import Link from "next/link";
 import { DashboardShell, ErrorBox } from "../../components/dashboard-shell.jsx";
 import { StageTracker, EmptyState } from "../../components/stage-tracker.jsx";
 import { getSessionUser } from "../../lib/supabase/server.js";
-import { REQUEST_KINDS, REQUEST_STATUSES, formatDate, stageLabel } from "../../lib/stages.js";
+import { REQUEST_KINDS, REQUEST_STATUSES, formatDate, stageLabel, canReviewProject } from "../../lib/stages.js";
 import { RequestForm } from "./request-form.jsx";
+import { ReviewForm } from "./review-form.jsx";
 
 export const metadata = { title: "Dashboard Klien | Tuntung.id" };
 export const dynamic = "force-dynamic";
@@ -36,13 +37,16 @@ export default async function KlienPage({ searchParams }) {
 
   let files = [];
   let requests = [];
+  let existingReview = null;
   if (project) {
-    const [filesRes, reqRes] = await Promise.all([
+    const [filesRes, reqRes, revRes] = await Promise.all([
       supabase.from("project_files").select("*").eq("project_id", project.id).order("created_at", { ascending: false }),
-      supabase.from("requests").select("*").eq("project_id", project.id).order("created_at", { ascending: false })
+      supabase.from("requests").select("*").eq("project_id", project.id).order("created_at", { ascending: false }),
+      supabase.from("reviews").select("*").eq("project_id", project.id).maybeSingle()
     ]);
     files = filesRes.data || [];
     requests = reqRes.data || [];
+    existingReview = revRes?.data || null;
   }
 
   return (
@@ -149,6 +153,25 @@ export default async function KlienPage({ searchParams }) {
               </ul>
             )}
           </section>
+
+          {canReviewProject(project.stage) ? (
+            <section className="mt-3 rounded-2xl bg-white p-5 sm:p-6">
+              <h2 className="font-display font-bold text-lg">Review &amp; Testimoni Proyek</h2>
+              <p className="text-sm text-ink-2 mt-1">
+                Proyek Anda telah memasuki tahap serah terima. Berikan ulasan jujur untuk membantu kami terus berkembang.
+              </p>
+              <div className="mt-4">
+                <ReviewForm projectId={project.id} existingReview={existingReview} />
+              </div>
+            </section>
+          ) : (
+            <section className="mt-3 rounded-2xl bg-soft p-5 sm:p-6 text-center">
+              <p className="font-display font-semibold text-ink">Ulasan &amp; Penilaian Klien</p>
+              <p className="text-sm text-ink-2 mt-1">
+                Formulir ulasan akan terbuka secara otomatis saat proyek Anda memasuki Tahap 5 (Serah Terima &amp; Garansi).
+              </p>
+            </section>
+          )}
         </>
       )}
     </DashboardShell>

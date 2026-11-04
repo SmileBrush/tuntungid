@@ -2,6 +2,9 @@ import Link from "next/link";
 import { Logo } from "../components/logo.jsx";
 import { StageTracker } from "../components/stage-tracker.jsx";
 import { STAGES } from "../lib/stages.js";
+import { createSupabaseServer } from "../lib/supabase/server.js";
+import { hasSupabaseEnv } from "../lib/env.js";
+import { StarRatingDisplay } from "../components/star-rating.jsx";
 
 const WA_TEXT = "Halo Tuntung.id, saya ingin menjadwalkan audit gratis 30 menit untuk alur kerja kami.";
 
@@ -28,16 +31,34 @@ const SERVICES = [
   }
 ];
 
-export default function LandingPage() {
+export default async function LandingPage() {
   const wa = waLink();
+
+  let portfolios = [];
+  let reviews = [];
+  if (hasSupabaseEnv()) {
+    try {
+      const supabase = await createSupabaseServer();
+      const [pRes, rRes] = await Promise.all([
+        supabase.from("portfolios").select("*").eq("is_published", true).order("created_at", { ascending: false }),
+        supabase.from("reviews").select("*, profiles(full_name, company)").eq("is_published", true).order("created_at", { ascending: false })
+      ]);
+      portfolios = pRes.data || [];
+      reviews = rRes.data || [];
+    } catch {
+      // Fallback tenang jika tabel belum diinisialisasi di database
+    }
+  }
   return (
     <div className="mx-auto w-full max-w-[1200px] px-4 sm:px-6">
       <header className="flex items-center justify-between gap-3 py-3">
         <Logo />
-        <nav aria-label="Navigasi utama" className="hidden md:flex items-center gap-8 text-sm font-medium">
+        <nav aria-label="Navigasi utama" className="hidden md:flex items-center gap-7 text-sm font-medium">
           <a href="#layanan" className="min-h-[44px] inline-flex items-center hover:text-brand">Layanan</a>
           <a href="#metode" className="min-h-[44px] inline-flex items-center hover:text-brand">Metode Kerja</a>
+          <a href="#portofolio" className="min-h-[44px] inline-flex items-center hover:text-brand">Portofolio</a>
           <a href="#dashboard" className="min-h-[44px] inline-flex items-center hover:text-brand">Dashboard</a>
+          <a href="#ulasan" className="min-h-[44px] inline-flex items-center hover:text-brand">Ulasan</a>
         </nav>
         <div className="flex items-center gap-2">
           <Link href="/masuk" className="min-h-[44px] px-3 inline-flex items-center text-sm font-semibold hover:text-brand">
@@ -131,6 +152,62 @@ export default function LandingPage() {
           </ol>
         </section>
 
+        <section id="portofolio" className="scroll-mt-6 py-20 sm:py-24">
+          <h2 className="text-center text-[clamp(1.75rem,3.6vw,2.5rem)] font-bold">Portofolio &amp; Hasil Kerja</h2>
+          <p className="text-center text-ink-2 mt-3 max-w-[50ch] mx-auto">
+            Aplikasi kustom yang dirancang dan dibangun untuk menyelesaikan alur kerja operasional.
+          </p>
+
+          {portfolios.length === 0 ? (
+            <div className="mt-10 rounded-2xl bg-white p-8 text-center max-w-xl mx-auto">
+              <p className="font-display font-semibold text-ink">Portofolio Sedang Dipersiapkan</p>
+              <p className="text-sm text-ink-2 mt-1">
+                Admin dapat menambahkan portofolio baru kapan saja melalui Dashboard Admin.
+              </p>
+            </div>
+          ) : (
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {portfolios.map((item) => (
+                <article key={item.id} className="float-card overflow-hidden flex flex-col justify-between" data-ui>
+                  <div>
+                    {item.image_url && (
+                      <div className="aspect-video w-full overflow-hidden bg-line">
+                        <img
+                          src={item.image_url}
+                          alt={item.title}
+                          className="w-full h-full object-cover"
+                          loading="lazy"
+                        />
+                      </div>
+                    )}
+                    <div className="p-5 sm:p-6">
+                      <div className="flex flex-wrap items-center gap-2 text-xs font-semibold mb-2">
+                        <span className="px-2.5 py-1 rounded-md bg-ok-bg text-brand">{item.sector}</span>
+                        <span className="px-2.5 py-1 rounded-md bg-soft text-ink-2">{item.tech_stack}</span>
+                      </div>
+                      <h3 className="font-display font-bold text-lg text-ink">{item.title}</h3>
+                      <p className="text-sm text-ink-2 mt-2 leading-relaxed">{item.summary}</p>
+                    </div>
+                  </div>
+
+                  {item.demo_url && (
+                    <div className="px-5 pb-5 sm:px-6 sm:pb-6">
+                      <a
+                        href={item.demo_url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="min-h-[44px] px-4 rounded-xl bg-soft inline-flex items-center justify-center w-full text-sm font-semibold text-ink hover:bg-line transition-colors"
+                      >
+                        Buka Demo Aplikasi ↗
+                      </a>
+                    </div>
+                  )}
+                </article>
+              ))}
+            </div>
+          )}
+        </section>
+
         <section id="dashboard" className="scroll-mt-6 py-20 sm:py-24">
           <h2 className="text-center text-[clamp(1.75rem,3.6vw,2.5rem)] font-bold">Pantau proyek dari satu dashboard</h2>
           <p className="text-center text-ink-2 mt-3">Contoh tampilan Dashboard Klien.</p>
@@ -161,6 +238,49 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
+        </section>
+
+        <section id="ulasan" className="scroll-mt-6 py-20 sm:py-24">
+          <h2 className="text-center text-[clamp(1.75rem,3.6vw,2.5rem)] font-bold">Ulasan Klien Terverifikasi</h2>
+          <p className="text-center text-ink-2 mt-3 max-w-[50ch] mx-auto">
+            Penilaian jujur dari penanggung jawab proyek yang telah diserahterimakan.
+          </p>
+
+          {reviews.length === 0 ? (
+            <div className="mt-10 rounded-2xl bg-white p-8 text-center max-w-xl mx-auto">
+              <p className="font-display font-semibold text-ink">Belum Ada Ulasan Publik</p>
+              <p className="text-sm text-ink-2 mt-1">
+                Ulasan akan tampil otomatis di sini begitu klien proyek tahap serah terima mengirimkan ulasan dan disetujui Admin.
+              </p>
+            </div>
+          ) : (
+            <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {reviews.map((rev) => (
+                <blockquote
+                  key={rev.id}
+                  className="float-card p-6 flex flex-col justify-between"
+                  data-ui
+                >
+                  <div>
+                    <StarRatingDisplay rating={rev.rating} className="flex items-center gap-1 text-gold mb-3" />
+                    <p className="text-ink text-base italic leading-relaxed">
+                      &ldquo;{rev.feedback}&rdquo;
+                    </p>
+                  </div>
+                  <footer className="mt-6 pt-4">
+                    <strong className="block text-sm font-bold text-ink">
+                      {rev.profiles?.full_name}
+                    </strong>
+                    {rev.profiles?.company && (
+                      <span className="block text-xs text-ink-2 mt-0.5">
+                        {rev.profiles.company}
+                      </span>
+                    )}
+                  </footer>
+                </blockquote>
+              ))}
+            </div>
+          )}
         </section>
 
         <section id="kontak" className="scroll-mt-6 rounded-[28px] bg-ink px-6 py-14 text-center text-white sm:py-20">

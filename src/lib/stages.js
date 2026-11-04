@@ -41,3 +41,14 @@ export function formatDate(iso) {
   return d.toLocaleDateString("id-ID", { day: "numeric", month: "short", year: "numeric" });
 }
 
+export function normalizeRating(value) {
+  const n = Number.parseInt(value, 10);
+  if (Number.isNaN(n) || n < 1) return 5;
+  return Math.min(5, Math.max(1, n));
+}
+
+export function canReviewProject(stage) {
+  return normalizeStage(stage) === 5;
+}
+
+

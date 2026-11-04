@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { resolveRole, guardPath, homePathFor } from "../src/lib/access.js";
-import { normalizeStage, stageState, formatDate } from "../src/lib/stages.js";
+import { normalizeStage, stageState, formatDate, normalizeRating, canReviewProject } from "../src/lib/stages.js";
 
 test("resolveRole membaca peran dari app_metadata saja", () => {
   assert.equal(resolveRole(null), "anonymous");
@@ -31,5 +31,15 @@ test("aturan tahap proyek", () => {
   assert.equal(stageState(3, 3), "active");
   assert.equal(stageState(5, 3), "pending");
   assert.equal(formatDate(null), "Belum ditentukan");
+});
+
+test("aturan rating dan hak review proyek", () => {
+  assert.equal(normalizeRating(6), 5);
+  assert.equal(normalizeRating(0), 5);
+  assert.equal(normalizeRating("4"), 4);
+  assert.equal(canReviewProject(1), false);
+  assert.equal(canReviewProject(4), false);
+  assert.equal(canReviewProject(5), true);
+  assert.equal(canReviewProject("5"), true);
 });
 

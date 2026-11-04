@@ -95,3 +95,76 @@ export async function replyRequestAction(formData) {
   revalidatePath("/admin");
 }
 
+export async function createPortfolioAction(_prev, formData) {
+  const supabase = await requireAdmin();
+  if (!supabase) return { error: "Hanya admin yang berhak mengelola portofolio." };
+
+  const title = String(formData.get("title") || "").trim();
+  const sector = String(formData.get("sector") || "Aplikasi Web").trim();
+  const summary = String(formData.get("summary") || "").trim();
+  const tech_stack = String(formData.get("tech_stack") || "Next.js + Supabase").trim();
+  const image_url = String(formData.get("image_url") || "").trim();
+  const demo_url = String(formData.get("demo_url") || "").trim() || null;
+
+  if (title.length < 3) return { error: "Judul portofolio minimal 3 karakter." };
+  if (summary.length < 5) return { error: "Ringkasan manfaat minimal 5 karakter." };
+  if (!/^https?:\/\//.test(image_url)) return { error: "URL gambar harus diawali dengan http:// atau https://" };
+
+  const { error } = await supabase.from("portfolios").insert({
+    title,
+    sector,
+    summary,
+    tech_stack,
+    image_url,
+    demo_url,
+    is_published: true
+  });
+
+  if (error) {
+    return { error: `Gagal menyimpan portofolio: ${error.message || "Periksa skema tabel portfolios di Supabase."}` };
+  }
+
+  revalidatePath("/admin");
+  revalidatePath("/");
+  return { ok: true, message: "Portofolio berhasil ditambahkan dan langsung aktif di Landing Page." };
+}
+
+export async function togglePortfolioPublishAction(formData) {
+  const supabase = await requireAdmin();
+  if (!supabase) return;
+  const id = String(formData.get("portfolio_id") || "");
+  const current = formData.get("is_published") === "true";
+  await supabase.from("portfolios").update({ is_published: !current }).eq("id", id);
+  revalidatePath("/admin");
+  revalidatePath("/");
+}
+
+export async function deletePortfolioAction(formData) {
+  const supabase = await requireAdmin();
+  if (!supabase) return;
+  const id = String(formData.get("portfolio_id") || "");
+  await supabase.from("portfolios").delete().eq("id", id);
+  revalidatePath("/admin");
+  revalidatePath("/");
+}
+
+export async function toggleReviewPublishAction(formData) {
+  const supabase = await requireAdmin();
+  if (!supabase) return;
+  const id = String(formData.get("review_id") || "");
+  const current = formData.get("is_published") === "true";
+  await supabase.from("reviews").update({ is_published: !current }).eq("id", id);
+  revalidatePath("/admin");
+  revalidatePath("/");
+}
+
+export async function deleteReviewAction(formData) {
+  const supabase = await requireAdmin();
+  if (!supabase) return;
+  const id = String(formData.get("review_id") || "");
+  await supabase.from("reviews").delete().eq("id", id);
+  revalidatePath("/admin");
+  revalidatePath("/");
+}
+
+
