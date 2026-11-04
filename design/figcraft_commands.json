@@ -1,0 +1,6881 @@
+[
+  {
+    "command": "file.rename",
+    "params": {
+      "name": "Tuntung.id - UI & Workflow System"
+    }
+  },
+  {
+    "command": "page.rename",
+    "params": {
+      "id": 1,
+      "name": "01 Design System & Tokens"
+    }
+  },
+  {
+    "command": "page.setBackground",
+    "params": {
+      "id": 1,
+      "color": "#E2ECE8"
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "name": "01A - Brand Identity & Verified Color Tokens",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 920,
+      "props": {
+        "fill": "#F4FAF7",
+        "clip": true
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 48,
+      "y": 36,
+      "width": 1344,
+      "height": 108,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 16
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 76,
+      "y": 62,
+      "width": 36,
+      "height": 12,
+      "props": {
+        "fill": "#58C268",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 84,
+      "y": 70,
+      "width": 12,
+      "height": 28,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 99,
+      "y": 77,
+      "width": 13,
+      "height": 13,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Tuntung.id",
+      "x": 122,
+      "y": 66,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "\"Gawi Manuntung, Supaya Untung\"  |  Sistem Token Warna Terverifikasi WCAG AA & Tipografi Brand",
+      "x": 310,
+      "y": 80,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 15,
+        "fill": "#D5ECE2",
+        "textAlign": "left"
+      },
+      "width": 980
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 48,
+      "y": 172,
+      "width": 210,
+      "height": 210,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 14,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 60,
+      "y": 184,
+      "width": 186,
+      "height": 92,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Ground Mint",
+      "x": 62,
+      "y": 290,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "#F4FAF7  (11.93:1 AAA)",
+      "x": 62,
+      "y": 314,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Latar halaman utama",
+      "x": 62,
+      "y": 338,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 274,
+      "y": 172,
+      "width": 210,
+      "height": 210,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 14,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 286,
+      "y": 184,
+      "width": 186,
+      "height": 92,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Surface White",
+      "x": 288,
+      "y": 290,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "#FFFFFF  (12.61:1 AAA)",
+      "x": 288,
+      "y": 314,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Kartu kerja & form",
+      "x": 288,
+      "y": 338,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 500,
+      "y": 172,
+      "width": 210,
+      "height": 210,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 14,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 512,
+      "y": 184,
+      "width": 186,
+      "height": 92,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Surface Deep",
+      "x": 514,
+      "y": 290,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "#0E3A2F  (12.61:1 AAA)",
+      "x": 514,
+      "y": 314,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Blok utama & teks primer",
+      "x": 514,
+      "y": 338,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 726,
+      "y": 172,
+      "width": 210,
+      "height": 210,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 14,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 738,
+      "y": 184,
+      "width": 186,
+      "height": 92,
+      "props": {
+        "fill": "#355E52",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Ink Secondary",
+      "x": 740,
+      "y": 290,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "#355E52  (7.31:1 AAA)",
+      "x": 740,
+      "y": 314,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Label & keterangan form",
+      "x": 740,
+      "y": 338,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 952,
+      "y": 172,
+      "width": 210,
+      "height": 210,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 14,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 964,
+      "y": 184,
+      "width": 186,
+      "height": 92,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Primary CTA",
+      "x": 966,
+      "y": 290,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "#187941  (5.45:1 AA)",
+      "x": 966,
+      "y": 314,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Aksi utama & status Tuntas",
+      "x": 966,
+      "y": 338,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 1178,
+      "y": 172,
+      "width": 210,
+      "height": 210,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 14,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 1190,
+      "y": 184,
+      "width": 186,
+      "height": 92,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Brand Gold",
+      "x": 1192,
+      "y": 290,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "#F4B41A  (6.84:1 AA)",
+      "x": 1192,
+      "y": 314,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Sorotan Untung & Add-on",
+      "x": 1192,
+      "y": 338,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 48,
+      "y": 412,
+      "width": 656,
+      "height": 460,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Skala Tipografi (Montserrat & Inter)",
+      "x": 76,
+      "y": 438,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 20,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "H1 Hero: Kerja Tuntas, Usaha Untung",
+      "x": 76,
+      "y": 484,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 26,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 600
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "H2 Section: Otomasi Google Workspace",
+      "x": 76,
+      "y": 534,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 20,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 600
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Body 16px (Inter): Mengubah alur kerja manual yang rumit menjadi aplikasi web kasir, rekap medis, dan jurnal sekolah yang tersimpan 100% di Google Drive milik klien.",
+      "x": 76,
+      "y": 584,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 15,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 600
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 76,
+      "y": 680,
+      "width": 600,
+      "height": 164,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Design Read & Three Dials (antislop)",
+      "x": 96,
+      "y": 700,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "\u2022 Landing Page (Persuade): ENERGY 2 / RHYTHM 3 / MOTION 2\n\u2022 Aplikasi Workflow (Operate): ENERGY 1 / RHYTHM 1 / MOTION 1\n\u2022 Semua target sentuh >= 44x44px, bebas em-dash, bebas angka fiktif.",
+      "x": 96,
+      "y": 730,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 560
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 728,
+      "y": 412,
+      "width": 664,
+      "height": 460,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Komponen Kontrol & 3 UI States Wajib (R-27)",
+      "x": 756,
+      "y": 438,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 20,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Btn: Isi Client Brief & Jadwal Audit",
+      "x": 756,
+      "y": 482,
+      "width": 290,
+      "height": 48,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Isi Client Brief & Jadwal Audit",
+      "x": 770,
+      "y": 497,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 262
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Btn: Konsultasi via WhatsApp",
+      "x": 1062,
+      "y": 482,
+      "width": 290,
+      "height": 48,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10,
+        "stroke": "#0E3A2F",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Konsultasi via WhatsApp",
+      "x": 1076,
+      "y": 497,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 262
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 756,
+      "y": 552,
+      "width": 608,
+      "height": 88,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Empty State: Belum Ada Antrean Client Brief",
+      "x": 776,
+      "y": 566,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Kirimkan tautan formulir Client Brief ke calon klien sebelum sesi Audit 30 Menit dimulai.",
+      "x": 776,
+      "y": 590,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 420
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Btn: Salin Link Brief",
+      "x": 1210,
+      "y": 568,
+      "width": 136,
+      "height": 44,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Salin Link Brief",
+      "x": 1224,
+      "y": 581,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 108
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 756,
+      "y": 654,
+      "width": 608,
+      "height": 88,
+      "props": {
+        "fill": "#FEF7E0",
+        "cornerRadius": 10,
+        "stroke": "#F4B41A",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Loading State: Menyinkronkan Folder Google Drive Klien...",
+      "x": 776,
+      "y": 668,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Sedang memeriksa struktur Google Sheets dan hak akses kepemilikan data klien.",
+      "x": 776,
+      "y": 692,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 560
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Card",
+      "x": 756,
+      "y": 756,
+      "width": 608,
+      "height": 96,
+      "props": {
+        "fill": "#FDECEC",
+        "cornerRadius": 10,
+        "stroke": "#8F1D1D",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Error State: Koneksi Google Drive Terputus",
+      "x": 776,
+      "y": 770,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#8F1D1D",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Token otorisasi Google Workspace kedaluwarsa. Hubungkan ulang akun untuk melanjutkan.",
+      "x": 776,
+      "y": 794,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#8F1D1D",
+        "textAlign": "left"
+      },
+      "width": 410
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 2,
+      "name": "Btn: Hubungkan Ulang",
+      "x": 1196,
+      "y": 776,
+      "width": 152,
+      "height": 44,
+      "props": {
+        "fill": "#8F1D1D",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 2,
+      "text": "Hubungkan Ulang",
+      "x": 1210,
+      "y": 789,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 124
+    }
+  },
+  {
+    "command": "page.add",
+    "params": {
+      "name": "02 Landing Page (Desktop & Mobile)"
+    }
+  },
+  {
+    "command": "page.setBackground",
+    "params": {
+      "id": 66,
+      "color": "#DCE8E2"
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "name": "02A - Landing Page Desktop (1440px)",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 2680,
+      "props": {
+        "fill": "#F4FAF7",
+        "clip": true
+      },
+      "parent": 66
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 84,
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 72,
+      "y": 22,
+      "width": 36,
+      "height": 12,
+      "props": {
+        "fill": "#58C268",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 80,
+      "y": 30,
+      "width": 12,
+      "height": 28,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 95,
+      "y": 37,
+      "width": 13,
+      "height": 13,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tuntung.id",
+      "x": 118,
+      "y": 26,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Filosofi Kerja        Layanan Kami        Metode 5 Tahap        Ketentuan T&C        Tim Power Duo",
+      "x": 380,
+      "y": 34,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 660
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Isi Client Brief & Audit Gratis",
+      "x": 1096,
+      "y": 18,
+      "width": 272,
+      "height": 48,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Isi Client Brief & Audit Gratis",
+      "x": 1110,
+      "y": 33,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 244
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Ubah Kerja Manual Jadi Aplikasi Web yang Tuntas",
+      "x": 72,
+      "y": 136,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 36,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 600
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "\"Gawi Manuntung, Supaya Untung\" : Mitra digitalisasi operasional untuk UMKM, sekolah, fasilitas kesehatan, dan perkantoran berbasis Google Workspace.",
+      "x": 72,
+      "y": 238,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 16,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 590
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Isi Client Brief & Jadwalkan Audit 30 Menit",
+      "x": 72,
+      "y": 322,
+      "width": 360,
+      "height": 54,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Isi Client Brief & Jadwalkan Audit 30 Menit",
+      "x": 86,
+      "y": 340,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Tanya Tim via WhatsApp",
+      "x": 448,
+      "y": 322,
+      "width": 210,
+      "height": 54,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10,
+        "stroke": "#0E3A2F",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tanya Tim via WhatsApp",
+      "x": 462,
+      "y": 340,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 182
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 72,
+      "y": 404,
+      "width": 586,
+      "height": 102,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Kepemilikan Data 100% di Google Drive Anda",
+      "x": 92,
+      "y": 422,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Seluruh database operasional, rekap transaksi, dan dokumen otomatis tersimpan langsung di akun Google Workspace milik instansi Anda sendiri.",
+      "x": 92,
+      "y": 448,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 546
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 704,
+      "y": 120,
+      "width": 664,
+      "height": 410,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 20
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Simulator Diagnosa Alur Kerja Operasional",
+      "x": 736,
+      "y": 148,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 20,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 600
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Pilih jenis instansi Anda untuk melihat simulasi perubahan kerja manual ke Micro-App:",
+      "x": 736,
+      "y": 178,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 580
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 736,
+      "y": 210,
+      "width": 142,
+      "height": 44,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "[Aktif] UMKM & Kasir",
+      "x": 742,
+      "y": 224,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 130
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 886,
+      "y": 210,
+      "width": 142,
+      "height": 44,
+      "props": {
+        "fill": "#184F3F",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Sekolah & Jurnal",
+      "x": 892,
+      "y": 224,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 130
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 1036,
+      "y": 210,
+      "width": 142,
+      "height": 44,
+      "props": {
+        "fill": "#184F3F",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Klinik & Rekap Medis",
+      "x": 1042,
+      "y": 224,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 130
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 1186,
+      "y": 210,
+      "width": 142,
+      "height": 44,
+      "props": {
+        "fill": "#184F3F",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Perkantoran",
+      "x": 1192,
+      "y": 224,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 130
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 736,
+      "y": 270,
+      "width": 288,
+      "height": 176,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 12
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Alur Kerja Saat Ini (Manual)",
+      "x": 754,
+      "y": 288,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "\u2022 Catat nota & stok berulang di buku/Excel\n\u2022 Rekap harian rawan selisih hitung\n\u2022 Kirim bukti transaksi manual satu per satu",
+      "x": 754,
+      "y": 316,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#E4F3EC",
+        "textAlign": "left"
+      },
+      "width": 254
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 1044,
+      "y": 270,
+      "width": 292,
+      "height": 176,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Solusi Micro-App Tuntung.id",
+      "x": 1062,
+      "y": 288,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#187941",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "\u2022 Form kasir web terhubung Google Sheets\n\u2022 Stok otomatis potong & alert via WhatsApp\n\u2022 Nota PDF tersimpan rapi di Google Drive",
+      "x": 1062,
+      "y": 316,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 258
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Gunakan Modul Ini di Client Brief",
+      "x": 736,
+      "y": 464,
+      "width": 600,
+      "height": 48,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Gunakan Modul Ini di Client Brief",
+      "x": 750,
+      "y": 479,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 572
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Makna & Filosofi: Gawi Manuntung, Supaya Untung",
+      "x": 72,
+      "y": 580,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 28,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 920
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 72,
+      "y": 632,
+      "width": 636,
+      "height": 184,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 96,
+      "y": 658,
+      "width": 56,
+      "height": 56,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 12
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "T",
+      "x": 96,
+      "y": 672,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 24,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 56
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "TUNTUNG (Tuntas Menyeluruh)",
+      "x": 172,
+      "y": 660,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 20,
+        "fill": "#187941",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Menyelesaikan masalah operasional dan administrasi secara menyeluruh, rapi, dan anti-ribet. Tidak berhenti di saran, tetapi sampai aplikasi berjalan di tangan tim Anda.",
+      "x": 172,
+      "y": 694,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 510
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 732,
+      "y": 632,
+      "width": 636,
+      "height": 184,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 16
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 756,
+      "y": 658,
+      "width": 56,
+      "height": 56,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 12
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "U",
+      "x": 756,
+      "y": 672,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 24,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 56
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "UNTUNG (Efisiensi & Nilai Tambah)",
+      "x": 832,
+      "y": 660,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 20,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Memberikan efisiensi waktu kerja harian, memangkas biaya salah input, dan mempercepat layanan pelanggan dengan memanfaatkan ekosistem Google Workspace yang sudah Anda miliki.",
+      "x": 832,
+      "y": 694,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#E4F3EC",
+        "textAlign": "left"
+      },
+      "width": 510
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tiga Layanan Utama Sesuai Kebutuhan Operasional",
+      "x": 72,
+      "y": 876,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 30,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 820
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 72,
+      "y": 934,
+      "width": 408,
+      "height": 280,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "1. Sesi Audit & Konsultasi Gratis (30 Menit)",
+      "x": 96,
+      "y": 962,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 19,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 360
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Bedah masalah operasional bersama Solution Architect serta penyusunan roadmap digitalisasi sebelum proyek dimulai.",
+      "x": 96,
+      "y": 1024,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 360
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Jadwalkan Sesi 30 Menit",
+      "x": 96,
+      "y": 1144,
+      "width": 360,
+      "height": 46,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Jadwalkan Sesi 30 Menit",
+      "x": 110,
+      "y": 1158,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 516,
+      "y": 934,
+      "width": 408,
+      "height": 280,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 16,
+        "stroke": "#187941",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "2. Custom Micro-App & Otomasi (Flagship)",
+      "x": 540,
+      "y": 962,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 19,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 360
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Pengembangan aplikasi kasir/stok, rekap medis klinik, jurnal sekolah, hingga otomasi dokumen Google Drive & notifikasi WhatsApp.",
+      "x": 540,
+      "y": 1024,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 360
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Pilih Modul di Client Brief",
+      "x": 540,
+      "y": 1144,
+      "width": 360,
+      "height": 46,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Pilih Modul di Client Brief",
+      "x": 554,
+      "y": 1158,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 960,
+      "y": 934,
+      "width": 408,
+      "height": 280,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "3. Onboarding, Garansi 30 Hari & Retainer",
+      "x": 984,
+      "y": 962,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 19,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 360
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Pendampingan penuh untuk staf Anda, garansi perbaikan bug 30 hari pasca-rilis tanpa biaya tambahan, dan opsi pemeliharaan rutin.",
+      "x": 984,
+      "y": 1024,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 360
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Pelajari Garansi Layanan",
+      "x": 984,
+      "y": 1144,
+      "width": 360,
+      "height": 46,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Pelajari Garansi Layanan",
+      "x": 998,
+      "y": 1158,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 72,
+      "y": 1266,
+      "width": 1296,
+      "height": 260,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 18,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Metode Kerja 5 Tahap yang Terukur",
+      "x": 104,
+      "y": 1296,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 28,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 680
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 104,
+      "y": 1354,
+      "width": 232,
+      "height": 144,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 120,
+      "y": 1370,
+      "width": 78,
+      "height": 26,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tahap 1",
+      "x": 126,
+      "y": 1375,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 66
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Konsultasi & Diagnosa",
+      "x": 120,
+      "y": 1408,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Sesi gratis 30 menit & bedah 6 poin Client Brief",
+      "x": 120,
+      "y": 1434,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 352,
+      "y": 1354,
+      "width": 232,
+      "height": 144,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 368,
+      "y": 1370,
+      "width": 78,
+      "height": 26,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tahap 2",
+      "x": 374,
+      "y": 1375,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 66
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Perancangan Prototype",
+      "x": 368,
+      "y": 1408,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Desain UI FigCraft & kunci Scope + T&C",
+      "x": 368,
+      "y": 1434,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 600,
+      "y": 1354,
+      "width": 232,
+      "height": 144,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 616,
+      "y": 1370,
+      "width": 78,
+      "height": 26,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tahap 3",
+      "x": 622,
+      "y": 1375,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 66
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Eksekusi Development",
+      "x": 616,
+      "y": 1408,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Koding Micro-App & integrasi API/Workspace",
+      "x": 616,
+      "y": 1434,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 848,
+      "y": 1354,
+      "width": 232,
+      "height": 144,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 864,
+      "y": 1370,
+      "width": 78,
+      "height": 26,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tahap 4",
+      "x": 870,
+      "y": 1375,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 66
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Testing & Training",
+      "x": 864,
+      "y": 1408,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Uji fungsi menyeluruh & pelatihan tim klien",
+      "x": 864,
+      "y": 1434,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 1096,
+      "y": 1354,
+      "width": 232,
+      "height": 144,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 1112,
+      "y": 1370,
+      "width": 78,
+      "height": 26,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tahap 5",
+      "x": 1118,
+      "y": 1375,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 66
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Serah Terima & Garansi",
+      "x": 1112,
+      "y": 1408,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Deploy ke Drive klien + garansi bug 30 hari",
+      "x": 1112,
+      "y": 1434,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 200
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Transparansi Sejak Awal: Client Brief & Ketentuan Layanan",
+      "x": 72,
+      "y": 1574,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 28,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 1200
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 72,
+      "y": 1630,
+      "width": 632,
+      "height": 520,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Overview 6 Poin Client Brief",
+      "x": 100,
+      "y": 1658,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 560
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Panduan terstruktur agar solusi tepat sasaran dan berdampak nyata:",
+      "x": 100,
+      "y": 1692,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 560
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 100,
+      "y": 1730,
+      "width": 576,
+      "height": 52,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "1. Profil & Identitas Bisnis : Ceritakan usaha atau lembaga Anda.",
+      "x": 116,
+      "y": 1746,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 100,
+      "y": 1794,
+      "width": 576,
+      "height": 52,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "2. Problem & Quality of Life Goal : Kendala utama & hasil yang diharapkan.",
+      "x": 116,
+      "y": 1810,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 100,
+      "y": 1858,
+      "width": 576,
+      "height": 52,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "3. Alur Kerja Saat Ini : Urutan proses sekarang dan letak titik macetnya.",
+      "x": 116,
+      "y": 1874,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 100,
+      "y": 1922,
+      "width": 576,
+      "height": 52,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "4. Spesifikasi & Fitur : Modul yang dibutuhkan dalam aplikasi/otomasi.",
+      "x": 116,
+      "y": 1938,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 100,
+      "y": 1986,
+      "width": 576,
+      "height": 52,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "5. Data & Bahan Awal : Format file Excel/Sheets/nota yang sudah ada.",
+      "x": 116,
+      "y": 2002,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 100,
+      "y": 2050,
+      "width": 576,
+      "height": 52,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "6. Timeline & Anggaran : Target waktu implementasi & kesiapan anggaran.",
+      "x": 116,
+      "y": 2066,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 736,
+      "y": 1630,
+      "width": 632,
+      "height": 520,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 16
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Overview 5 Poin Terms & Conditions",
+      "x": 764,
+      "y": 1658,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      },
+      "width": 560
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Komitmen kejelasan ruang lingkup dan perlindungan data klien:",
+      "x": 764,
+      "y": 1692,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 560
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 764,
+      "y": 1730,
+      "width": 576,
+      "height": 62,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "1. Ruang Lingkup Layanan : Berdasarkan Client Brief awal; fitur tambahan dihitung sebagai Add-on.",
+      "x": 780,
+      "y": 1742,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 764,
+      "y": 1806,
+      "width": 576,
+      "height": 62,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "2. Kepemilikan Data 100% : Seluruh data operasional milik Anda di Google Drive akun Anda sendiri.",
+      "x": 780,
+      "y": 1818,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 764,
+      "y": 1882,
+      "width": 576,
+      "height": 62,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "3. Biaya & Penjadwalan : Mengacu kesepakatan awal; pengerjaan dimulai setelah pembayaran tahap awal.",
+      "x": 780,
+      "y": 1894,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 764,
+      "y": 1958,
+      "width": 576,
+      "height": 62,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "4. Garansi & Dukungan : Garansi pasca-rilis 30 hari penuh untuk perbaikan bug & pendampingan.",
+      "x": 780,
+      "y": 1970,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 764,
+      "y": 2034,
+      "width": 576,
+      "height": 62,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "5. Perubahan & Pembatalan : Estimasi ulang transparan untuk perubahan fitur; pembatalan sesuai progres.",
+      "x": 780,
+      "y": 2046,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 544
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 72,
+      "y": 2204,
+      "width": 1296,
+      "height": 396,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 20
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Tim Kami: The Power Duo",
+      "x": 112,
+      "y": 2240,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 26,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 560
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Anda berdiskusi langsung dengan perancang sistem dan eksekutor teknis tanpa perantara berlapis.",
+      "x": 112,
+      "y": 2282,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 112,
+      "y": 2340,
+      "width": 540,
+      "height": 112,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 14
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Solution Architect & Conceptor",
+      "x": 136,
+      "y": 2360,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 18,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Audit alur kerja operasional, perancangan konsep UI/UX di FigCraft, dan konsultasi solusi teknis bisnis.",
+      "x": 136,
+      "y": 2390,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 490
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 112,
+      "y": 2468,
+      "width": 540,
+      "height": 112,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 14
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Automation & App Engineer",
+      "x": 136,
+      "y": 2488,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 18,
+        "fill": "#58C268",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Eksekusi koding aplikasi web, integrasi API Google Workspace & WhatsApp, serta pemeliharaan sistem.",
+      "x": 136,
+      "y": 2518,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 490
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Card",
+      "x": 704,
+      "y": 2244,
+      "width": 624,
+      "height": 336,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Siap Membuat Pekerjaan Lebih Tuntas?",
+      "x": 740,
+      "y": 2280,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 26,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Isi 6 poin Client Brief dalam 5 menit dan pilih jadwal Sesi Audit & Konsultasi Gratis (30 Menit) bersama The Power Duo.",
+      "x": 740,
+      "y": 2348,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 15,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 540
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Mulai Isi Client Brief Sekarang",
+      "x": 740,
+      "y": 2424,
+      "width": 544,
+      "height": 54,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Mulai Isi Client Brief Sekarang",
+      "x": 754,
+      "y": 2442,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 516
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 67,
+      "name": "Btn: Hubungi WhatsApp Tuntung.id",
+      "x": 740,
+      "y": 2494,
+      "width": 544,
+      "height": 50,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 67,
+      "text": "Hubungi WhatsApp Tuntung.id",
+      "x": 754,
+      "y": 2510,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 516
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "name": "02B - Landing Page Mobile Reflow (390px)",
+      "x": 1520,
+      "y": 0,
+      "width": 390,
+      "height": 1680,
+      "props": {
+        "fill": "#F4FAF7",
+        "clip": true
+      },
+      "parent": 66
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 0,
+      "y": 0,
+      "width": 390,
+      "height": 68,
+      "props": {
+        "fill": "#FFFFFF",
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 16,
+      "y": 16,
+      "width": 36,
+      "height": 12,
+      "props": {
+        "fill": "#58C268",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 24,
+      "y": 24,
+      "width": 12,
+      "height": 28,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 39,
+      "y": 31,
+      "width": 13,
+      "height": 13,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Tuntung.id",
+      "x": 62,
+      "y": 20,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Btn: Menu",
+      "x": 302,
+      "y": 12,
+      "width": 72,
+      "height": 44,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Menu",
+      "x": 316,
+      "y": 25,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 44
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Ubah Kerja Manual Jadi Aplikasi Tuntas",
+      "x": 20,
+      "y": 92,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 26,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 350
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "\"Gawi Manuntung, Supaya Untung\" : Aplikasi web & otomasi ringan berbasis Google Workspace.",
+      "x": 20,
+      "y": 162,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 350
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Btn: Isi Client Brief & Audit 30m",
+      "x": 20,
+      "y": 224,
+      "width": 350,
+      "height": 48,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Isi Client Brief & Audit 30m",
+      "x": 34,
+      "y": 239,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 322
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Btn: Tanya Tim via WhatsApp",
+      "x": 20,
+      "y": 282,
+      "width": 350,
+      "height": 48,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10,
+        "stroke": "#0E3A2F",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Tanya Tim via WhatsApp",
+      "x": 34,
+      "y": 297,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 322
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 20,
+      "y": 352,
+      "width": 350,
+      "height": 310,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 16
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Simulator Diagnosa Operasional",
+      "x": 36,
+      "y": 374,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 17,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 36,
+      "y": 408,
+      "width": 152,
+      "height": 44,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "UMKM & Kasir",
+      "x": 42,
+      "y": 422,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 140
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 196,
+      "y": 408,
+      "width": 158,
+      "height": 44,
+      "props": {
+        "fill": "#184F3F",
+        "cornerRadius": 8
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Sekolah / Klinik",
+      "x": 202,
+      "y": 422,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 146
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 36,
+      "y": 466,
+      "width": 318,
+      "height": 124,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Hasil Otomasi Google Workspace:",
+      "x": 50,
+      "y": 480,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 13,
+        "fill": "#187941",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "\u2022 Kasir & stok langsung masuk Google Sheets\n\u2022 Nota PDF otomatis terkirim ke WhatsApp\n\u2022 Data 100% milik Anda di Google Drive",
+      "x": 50,
+      "y": 504,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 290
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Btn: Pakai Modul Ini di Brief",
+      "x": 36,
+      "y": 602,
+      "width": 318,
+      "height": 44,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Pakai Modul Ini di Brief",
+      "x": 50,
+      "y": 615,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 290
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "3 Layanan & 5 Tahap Kerja",
+      "x": 20,
+      "y": 690,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 20,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 350
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 20,
+      "y": 730,
+      "width": 350,
+      "height": 100,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "1. Audit & Konsultasi Gratis (30m)",
+      "x": 36,
+      "y": 746,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Bedah kendala & susun roadmap digitalisasi.",
+      "x": 36,
+      "y": 774,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 20,
+      "y": 844,
+      "width": 350,
+      "height": 100,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "2. Custom Micro-App & Otomasi",
+      "x": 36,
+      "y": 860,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Aplikasi kasir, rekap medis, jurnal sekolah.",
+      "x": 36,
+      "y": 888,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 20,
+      "y": 958,
+      "width": 350,
+      "height": 100,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "3. Onboarding & Garansi 30 Hari",
+      "x": 36,
+      "y": 974,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Pendampingan penuh & garansi bug 30 hari.",
+      "x": 36,
+      "y": 1002,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Card",
+      "x": 20,
+      "y": 1084,
+      "width": 350,
+      "height": 556,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 16
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "6 Poin Brief & 5 Komitmen T&C",
+      "x": 36,
+      "y": 1108,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 18,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "1. Ruang lingkup mengacu Client Brief awal\n2. Data 100% tersimpan di Google Drive Anda\n3. Skema biaya & jadwal disepakati di muka\n4. Garansi pasca-rilis 30 hari penuh\n5. Fitur tambahan dihitung sebagai Add-on",
+      "x": 36,
+      "y": 1164,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 318
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 203,
+      "name": "Btn: Mulai Isi Client Brief (5 Menit)",
+      "x": 36,
+      "y": 1564,
+      "width": 318,
+      "height": 50,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 203,
+      "text": "Mulai Isi Client Brief (5 Menit)",
+      "x": 50,
+      "y": 1580,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 290
+    }
+  },
+  {
+    "command": "page.add",
+    "params": {
+      "name": "03 Client Portal & Onboarding Wizard"
+    }
+  },
+  {
+    "command": "page.setBackground",
+    "params": {
+      "id": 243,
+      "color": "#DCE8E2"
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "name": "03A - Interactive Client Brief Wizard (6 Poin)",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1040,
+      "props": {
+        "fill": "#F4FAF7",
+        "clip": true
+      },
+      "parent": 243
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 1040,
+      "props": {
+        "fill": "#0E3A2F"
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 32,
+      "y": 28,
+      "width": 36,
+      "height": 12,
+      "props": {
+        "fill": "#58C268",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 40,
+      "y": 36,
+      "width": 12,
+      "height": 28,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 55,
+      "y": 43,
+      "width": 13,
+      "height": 13,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Tuntung.id",
+      "x": 78,
+      "y": 32,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "PORTAL ONBOARDING KLIEN",
+      "x": 32,
+      "y": 78,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      },
+      "width": 250
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 24,
+      "y": 120,
+      "width": 272,
+      "height": 72,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 38,
+      "y": 136,
+      "width": 10,
+      "height": 40,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "1. Profil & Identitas Bisnis",
+      "x": 60,
+      "y": 134,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Selesai diisi",
+      "x": 60,
+      "y": 156,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 24,
+      "y": 206,
+      "width": 272,
+      "height": 72,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 38,
+      "y": 222,
+      "width": 10,
+      "height": 40,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "2. Problem & QoL Goal",
+      "x": 60,
+      "y": 220,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Selesai diisi",
+      "x": 60,
+      "y": 242,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 24,
+      "y": 292,
+      "width": 272,
+      "height": 72,
+      "props": {
+        "fill": "#1F634F",
+        "cornerRadius": 10,
+        "stroke": "#F4B41A",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 38,
+      "y": 308,
+      "width": 10,
+      "height": 40,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "3. Alur Kerja Saat Ini",
+      "x": 60,
+      "y": 306,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Sedang diisi (Langkah Aktif)",
+      "x": 60,
+      "y": 328,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 24,
+      "y": 378,
+      "width": 272,
+      "height": 72,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 38,
+      "y": 394,
+      "width": 10,
+      "height": 40,
+      "props": {
+        "fill": "#245C4B",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "4. Spesifikasi & Fitur",
+      "x": 60,
+      "y": 392,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Menunggu pengisian",
+      "x": 60,
+      "y": 414,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 24,
+      "y": 464,
+      "width": 272,
+      "height": 72,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 38,
+      "y": 480,
+      "width": 10,
+      "height": 40,
+      "props": {
+        "fill": "#245C4B",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "5. Data & Bahan Awal",
+      "x": 60,
+      "y": 478,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Menunggu pengisian",
+      "x": 60,
+      "y": 500,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 24,
+      "y": 550,
+      "width": 272,
+      "height": 72,
+      "props": {
+        "fill": "#164A3B",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 38,
+      "y": 566,
+      "width": 10,
+      "height": 40,
+      "props": {
+        "fill": "#245C4B",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "6. Timeline & Anggaran",
+      "x": 60,
+      "y": 564,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Pilih slot Audit 30 Menit",
+      "x": 60,
+      "y": 586,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#CFE8DC",
+        "textAlign": "left"
+      },
+      "width": 220
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Pengisian Client Brief & Jadwal Audit Gratis (30 Menit)",
+      "x": 368,
+      "y": 36,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 28,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 980
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Kami memahami kebutuhan Anda secara menyeluruh agar solusi aplikasi & otomasi tepat sasaran.",
+      "x": 368,
+      "y": 74,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 15,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 900
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 368,
+      "y": 120,
+      "width": 1024,
+      "height": 116,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "1. Profil & Identitas Bisnis (Usaha / Sekolah / Klinik / Kantor)",
+      "x": 392,
+      "y": 136,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 960
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 392,
+      "y": 164,
+      "width": 976,
+      "height": 54,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Contoh: Klinik Pratama Sehat Bersama - Layanan Rawat Jalan & Apotek (12 Staf)",
+      "x": 408,
+      "y": 182,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 944
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 368,
+      "y": 252,
+      "width": 1024,
+      "height": 116,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "2. Problem Utama & Quality of Life Goal yang Diharapkan",
+      "x": 392,
+      "y": 268,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 960
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 392,
+      "y": 296,
+      "width": 976,
+      "height": 54,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Contoh: Rekap pasien dan stok obat masih tulis ulang di 3 file Excel berbeda; ingin selesai otomatis dalam 1 klik.",
+      "x": 408,
+      "y": 314,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 944
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 368,
+      "y": 384,
+      "width": 1024,
+      "height": 116,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#187941",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "3. Alur Kerja Saat Ini & Letak Titik Kendalanya",
+      "x": 392,
+      "y": 400,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 960
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 392,
+      "y": 428,
+      "width": 976,
+      "height": 54,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Contoh: Pendaftaran di buku -> kasir ketik ulang di Excel -> laporan bulanan sering selisih dan terlambat 5 hari.",
+      "x": 408,
+      "y": 446,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 944
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 368,
+      "y": 516,
+      "width": 1024,
+      "height": 116,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "4. Spesifikasi & Fitur Aplikasi / Otomasi yang Diinginkan",
+      "x": 392,
+      "y": 532,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 960
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 392,
+      "y": 560,
+      "width": 976,
+      "height": 54,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "[x] Form Pendaftaran & Rekap Medis Web   [x] Otomasi Stok Obat Google Sheets   [x] Kirim Kwitansi PDF ke WhatsApp",
+      "x": 408,
+      "y": 578,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 944
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 368,
+      "y": 648,
+      "width": 1024,
+      "height": 116,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "5. Data & Bahan Awal yang Sudah Tersedia",
+      "x": 392,
+      "y": 664,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 960
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 392,
+      "y": 692,
+      "width": 976,
+      "height": 54,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Tersedia file Google Sheets daftar obat (420 item) dan format PDF kwitansi klinik saat ini.",
+      "x": 408,
+      "y": 710,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 944
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 368,
+      "y": 780,
+      "width": 1024,
+      "height": 116,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "6. Target Timeline, Estimasi Anggaran & Slot Sesi Audit Gratis 30 Menit",
+      "x": 392,
+      "y": 796,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 960
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Card",
+      "x": 392,
+      "y": 824,
+      "width": 976,
+      "height": 54,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 8,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Target rilis: 3 Minggu  |  Anggaran: [REAL DATA]  |  Jadwal Audit 30 Menit: Kamis, 10:00 WITA via Google Meet",
+      "x": 408,
+      "y": 842,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 944
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Btn: Simpan Draf Brief",
+      "x": 368,
+      "y": 936,
+      "width": 240,
+      "height": 52,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10,
+        "stroke": "#0E3A2F",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Simpan Draf Brief",
+      "x": 382,
+      "y": 953,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 212
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 244,
+      "name": "Btn: Kirim Client Brief & Kunci Jadwal Audit 30 Menit",
+      "x": 952,
+      "y": 936,
+      "width": 440,
+      "height": 52,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 244,
+      "text": "Kirim Client Brief & Kunci Jadwal Audit 30 Menit",
+      "x": 966,
+      "y": 953,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 412
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "name": "03B - Persetujuan T&C (5 Poin) & Pelacak 5 Tahap Proyek",
+      "x": 1520,
+      "y": 0,
+      "width": 1440,
+      "height": 1040,
+      "props": {
+        "fill": "#F4FAF7",
+        "clip": true
+      },
+      "parent": 243
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 76,
+      "props": {
+        "fill": "#0E3A2F"
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 48,
+      "y": 18,
+      "width": 36,
+      "height": 12,
+      "props": {
+        "fill": "#58C268",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 56,
+      "y": 26,
+      "width": 12,
+      "height": 28,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 71,
+      "y": 33,
+      "width": 13,
+      "height": 13,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Tuntung.id",
+      "x": 94,
+      "y": 22,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Klien: [REAL DATA - Nama Instansi Klien]   |   Status Proyek: Tahap 2 - Perancangan Prototype & Kesepakatan T&C",
+      "x": 320,
+      "y": 28,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Medium",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 920
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 48,
+      "y": 104,
+      "width": 660,
+      "height": 888,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Persetujuan 5 Ketentuan Layanan (T&C)",
+      "x": 76,
+      "y": 132,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 600
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Transparansi dan kejelasan adalah komitmen kami dalam setiap layanan:",
+      "x": 76,
+      "y": 166,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 14,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 580
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 76,
+      "y": 204,
+      "width": 604,
+      "height": 118,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "1. Ruang Lingkup Layanan (Baseline Scope)",
+      "x": 96,
+      "y": 218,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Pengerjaan aplikasi & otomasi didasarkan pada dokumen Client Brief awal. Perubahan di luar kesepakatan dihitung sebagai Add-on dengan penyesuaian biaya dan waktu.",
+      "x": 96,
+      "y": 244,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 76,
+      "y": 336,
+      "width": 604,
+      "height": 118,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "2. Hak Kekayaan Intelektual & Kepemilikan Data",
+      "x": 96,
+      "y": 350,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Seluruh data operasional Anda adalah 100% milik Anda dan tersimpan aman di Google Drive / akun milik Anda sendiri.",
+      "x": 96,
+      "y": 376,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 76,
+      "y": 468,
+      "width": 604,
+      "height": 118,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "3. Biaya, Pembayaran & Penjadwalan",
+      "x": 96,
+      "y": 482,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Biaya layanan mengacu pada kesepakatan awal. Pengerjaan dimulai setelah pembayaran tahap awal diselesaikan.",
+      "x": 96,
+      "y": 508,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 76,
+      "y": 600,
+      "width": 604,
+      "height": 118,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "4. Garansi & Dukungan Pasca-Rilis (30 Hari)",
+      "x": 96,
+      "y": 614,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Garansi 30 hari penuh setelah serah terima untuk perbaikan bug atau kendala teknis, disertai pendampingan tim.",
+      "x": 96,
+      "y": 640,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 76,
+      "y": 732,
+      "width": 604,
+      "height": 118,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 10,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "5. Ketentuan Perubahan Fitur & Pembatalan",
+      "x": 96,
+      "y": 746,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Perubahan fitur diajukan melalui modul Add-on dengan estimasi ulang. Pembatalan mengacu pada progres tahapan.",
+      "x": 96,
+      "y": 772,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 564
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Btn: Setujui Client Brief & 5 Ketentuan Layanan",
+      "x": 76,
+      "y": 916,
+      "width": 604,
+      "height": 52,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Setujui Client Brief & 5 Ketentuan Layanan",
+      "x": 90,
+      "y": 933,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 576
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 736,
+      "y": 104,
+      "width": 656,
+      "height": 888,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Pelacak Progres 5 Tahap & Garansi 30 Hari",
+      "x": 764,
+      "y": 132,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 600
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 764,
+      "y": 178,
+      "width": 600,
+      "height": 128,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 12
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Status Saat Ini: Tahap 2 - Perancangan Prototype (MVP)",
+      "x": 788,
+      "y": 198,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 17,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "1. Diagnosa [Tuntas]  ->  2. Prototype MVP [Aktif]  ->  3. Development  ->  4. Testing & Training  ->  5. Garansi 30 Hari",
+      "x": 788,
+      "y": 232,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 552
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Folder Google Drive Klien: drive.google.com/drive/folders/[ID-KLIEN]",
+      "x": 788,
+      "y": 270,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#58C268",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 764,
+      "y": 328,
+      "width": 600,
+      "height": 280,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Daftar Modul Kesepakatan Awal (Baseline Scope)",
+      "x": 788,
+      "y": 348,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "\u2022 Modul 1: Form Input Transaksi & Kasir Web (Disetujui di Client Brief)\n\u2022 Modul 2: Otomasi Rekap Harian ke Google Sheets Klien (Disetujui di Client Brief)\n\u2022 Modul 3: Pengiriman Bukti PDF Otomatis ke WhatsApp (Disetujui di Client Brief)",
+      "x": 788,
+      "y": 384,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 788,
+      "y": 480,
+      "width": 552,
+      "height": 108,
+      "props": {
+        "fill": "#FEF7E0",
+        "cornerRadius": 10,
+        "stroke": "#F4B41A",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Simulasi Pengajuan Fitur Tambahan (Add-on di Luar Brief)",
+      "x": 806,
+      "y": 496,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 516
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Ingin menambah fitur di luar kesepakatan awal? Ajukan di sini agar Solution Architect menghitung estimasi biaya & waktu tambahan secara transparan.",
+      "x": 806,
+      "y": 520,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 516
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Card",
+      "x": 764,
+      "y": 632,
+      "width": 600,
+      "height": 336,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Panel Masa Garansi Pasca-Rilis (30 Hari Penuh)",
+      "x": 788,
+      "y": 656,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 18,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Aktif otomatis begitu Tahap 5 (Serah Terima) selesai dilakukan.\n\u2022 Mencakup perbaikan bug dan kendala teknis sesuai Baseline Scope.\n\u2022 Pendampingan onboarding staf operasional.",
+      "x": 788,
+      "y": 690,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 550
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Btn: Buka Prototype MVP di FigCraft / Browser",
+      "x": 788,
+      "y": 836,
+      "width": 552,
+      "height": 48,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Buka Prototype MVP di FigCraft / Browser",
+      "x": 802,
+      "y": 851,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 524
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 305,
+      "name": "Btn: Ajukan Perubahan Fitur (Add-on) / Lapor Kendala",
+      "x": 788,
+      "y": 898,
+      "width": 552,
+      "height": 48,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10,
+        "stroke": "#0E3A2F",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 305,
+      "text": "Ajukan Perubahan Fitur (Add-on) / Lapor Kendala",
+      "x": 802,
+      "y": 913,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 524
+    }
+  },
+  {
+    "command": "page.add",
+    "params": {
+      "name": "04 Internal Workspace (The Power Duo)"
+    }
+  },
+  {
+    "command": "page.setBackground",
+    "params": {
+      "id": 351,
+      "color": "#DCE8E2"
+    }
+  },
+  {
+    "command": "frame.create",
+    "params": {
+      "name": "04A - Power Duo Operational Workspace (Operate Mode)",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 1040,
+      "props": {
+        "fill": "#F4FAF7",
+        "clip": true
+      },
+      "parent": 351
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 76,
+      "props": {
+        "fill": "#0E3A2F"
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 40,
+      "y": 18,
+      "width": 36,
+      "height": 12,
+      "props": {
+        "fill": "#58C268",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 48,
+      "y": 26,
+      "width": 12,
+      "height": 28,
+      "props": {
+        "fill": "#22A45D",
+        "cornerRadius": 6
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 63,
+      "y": 33,
+      "width": 13,
+      "height": 13,
+      "props": {
+        "fill": "#F4B41A",
+        "cornerRadius": 4
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Tuntung.id",
+      "x": 86,
+      "y": 22,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 22,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "WORKSPACE INTERNAL THE POWER DUO   |   Peran Aktif: Solution Architect & Automation Engineer",
+      "x": 300,
+      "y": 28,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#F4B41A",
+        "textAlign": "left"
+      },
+      "width": 760
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Btn: + Buat Dokumen Client Brief Baru",
+      "x": 1112,
+      "y": 14,
+      "width": 288,
+      "height": 48,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "+ Buat Dokumen Client Brief Baru",
+      "x": 1126,
+      "y": 29,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 260
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 40,
+      "y": 100,
+      "width": 432,
+      "height": 900,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 60,
+      "y": 120,
+      "width": 392,
+      "height": 52,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "1. Antrean Audit 30 Menit (Architect)",
+      "x": 76,
+      "y": 136,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 360
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Keputusan utama: Bedah 6 poin Client Brief sebelum sesi konsultasi 30 menit dimulai.",
+      "x": 60,
+      "y": 186,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 392
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 60,
+      "y": 236,
+      "width": 392,
+      "height": 214,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "[REAL DATA - Instansi A]",
+      "x": 78,
+      "y": 252,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 356
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Segmen: Fasilitas Kesehatan / Klinik\nKendala: Rekap pasien & stok obat masih manual di 3 file Excel.\nJadwal Audit: Hari Ini, 10:00 WITA (30 Menit)",
+      "x": 78,
+      "y": 280,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 356
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Btn: Buka 6 Poin Brief & Catat Diagnosa",
+      "x": 78,
+      "y": 386,
+      "width": 356,
+      "height": 46,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Buka 6 Poin Brief & Catat Diagnosa",
+      "x": 92,
+      "y": 400,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 328
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 60,
+      "y": 468,
+      "width": 392,
+      "height": 214,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "[REAL DATA - Instansi B]",
+      "x": 78,
+      "y": 484,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 356
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Segmen: Instansi Pendidikan / Sekolah\nKendala: Jurnal mengajar guru & rekap absensi bulanan terlambat.\nJadwal Audit: Besok, 14:00 WITA (30 Menit)",
+      "x": 78,
+      "y": 512,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 356
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Btn: Buka 6 Poin Brief & Catat Diagnosa",
+      "x": 78,
+      "y": 618,
+      "width": 356,
+      "height": 46,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Buka 6 Poin Brief & Catat Diagnosa",
+      "x": 92,
+      "y": 632,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 328
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 60,
+      "y": 700,
+      "width": 392,
+      "height": 214,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "[REAL DATA - UMKM C]",
+      "x": 78,
+      "y": 716,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 356
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Segmen: UMKM Ritel & Distribusi\nKendala: Nota kasir belum otomatis memotong stok gudang.\nJadwal Audit: Jumat, 09:30 WITA (30 Menit)",
+      "x": 78,
+      "y": 744,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 356
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Btn: Buka 6 Poin Brief & Catat Diagnosa",
+      "x": 78,
+      "y": 850,
+      "width": 356,
+      "height": 46,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Buka 6 Poin Brief & Catat Diagnosa",
+      "x": 92,
+      "y": 864,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 328
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 496,
+      "y": 100,
+      "width": 472,
+      "height": 900,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 516,
+      "y": 120,
+      "width": 432,
+      "height": 52,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "2. Papan Eksekusi 5 Tahap Proyek Aktif",
+      "x": 532,
+      "y": 136,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#FFFFFF",
+        "textAlign": "left"
+      },
+      "width": 400
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Keputusan utama: Pantau serah terima antar Solution Architect & Automation Engineer.",
+      "x": 516,
+      "y": 186,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 432
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 516,
+      "y": 236,
+      "width": 432,
+      "height": 160,
+      "props": {
+        "fill": "#FEF7E0",
+        "cornerRadius": 12,
+        "stroke": "#F4B41A",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Tahap 2: Perancangan Prototype (MVP)",
+      "x": 534,
+      "y": 252,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "PIC: Solution Architect  |  Target: Kunci desain UI FigCraft & persetujuan 5 poin T&C.",
+      "x": 534,
+      "y": 280,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Status: Menunggu tanda tangan digital T&C klien",
+      "x": 534,
+      "y": 334,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 516,
+      "y": 414,
+      "width": 432,
+      "height": 160,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 12,
+        "stroke": "#187941",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Tahap 3: Eksekusi & Development",
+      "x": 534,
+      "y": 430,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "PIC: Automation & App Engineer  |  Target: Integrasi Apps Script, Google Sheets & WhatsApp API.",
+      "x": 534,
+      "y": 458,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Status: 3 dari 4 modul Baseline Scope selesai",
+      "x": 534,
+      "y": 512,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 516,
+      "y": 592,
+      "width": 432,
+      "height": 160,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Tahap 4: Testing & Training Staf",
+      "x": 534,
+      "y": 608,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "PIC: The Power Duo  |  Target: Uji coba input data nyata & pelatihan admin instansi.",
+      "x": 534,
+      "y": 636,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Status: Terjadwal uji coba langsung di akun Google Drive klien",
+      "x": 534,
+      "y": 690,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 516,
+      "y": 770,
+      "width": 432,
+      "height": 160,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Tahap 5: Serah Terima & Garansi 30 Hari",
+      "x": 534,
+      "y": 786,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 15,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "PIC: Automation Engineer  |  Target: Pemantauan pasca-rilis selama 30 hari kalender.",
+      "x": 534,
+      "y": 814,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 12,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Status: Sisa masa garansi aktif [22 Hari] - 0 bug terbuka",
+      "x": 534,
+      "y": 868,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 12,
+        "fill": "#187941",
+        "textAlign": "left"
+      },
+      "width": 396
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 992,
+      "y": 100,
+      "width": 408,
+      "height": 900,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 16,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 1012,
+      "y": 120,
+      "width": 368,
+      "height": 52,
+      "props": {
+        "fill": "#FEF7E0",
+        "cornerRadius": 10,
+        "stroke": "#F4B41A",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "3. Kendali Scope, Add-on & Drive",
+      "x": 1028,
+      "y": 136,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 336
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Sesuai T&C Poin 1 & 2: Pisahkan perubahan di luar Brief awal sebagai Add-on & pastikan data di Drive klien.",
+      "x": 1012,
+      "y": 186,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 368
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 1012,
+      "y": 244,
+      "width": 368,
+      "height": 250,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Kalkulator Pengajuan Add-on",
+      "x": 1030,
+      "y": 264,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Permintaan baru di luar Client Brief:\n\u2022 Tambahan modul cetak laporan PDF cabang kedua\n\u2022 Estimasi Dampak Waktu: +4 Hari Kerja\n\u2022 Estimasi Biaya Add-on: [REAL DATA]",
+      "x": 1030,
+      "y": 294,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Btn: Kirim Estimasi Add-on ke Klien",
+      "x": 1030,
+      "y": 428,
+      "width": 332,
+      "height": 46,
+      "props": {
+        "fill": "#187941",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Kirim Estimasi Add-on ke Klien",
+      "x": 1044,
+      "y": 442,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 304
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 1012,
+      "y": 514,
+      "width": 368,
+      "height": 220,
+      "props": {
+        "fill": "#E4F3EC",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Checklist Kepemilikan Data (T&C #2)",
+      "x": 1030,
+      "y": 534,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "[x] Database berada di Google Drive milik klien\n[x] Script otomasi berjalan di akun Google Workspace klien\n[x] Dokumentasi & akses admin telah diserahkan",
+      "x": 1030,
+      "y": 566,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Btn: Verifikasi Akses Google Drive",
+      "x": 1030,
+      "y": 668,
+      "width": 332,
+      "height": 46,
+      "props": {
+        "fill": "#0E3A2F",
+        "cornerRadius": 10
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Verifikasi Akses Google Drive",
+      "x": 1044,
+      "y": 682,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#FFFFFF",
+        "textAlign": "center"
+      },
+      "width": 304
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Card",
+      "x": 1012,
+      "y": 754,
+      "width": 368,
+      "height": 224,
+      "props": {
+        "fill": "#F4FAF7",
+        "cornerRadius": 12,
+        "stroke": "#BFDCD0",
+        "strokeWeight": 1
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Status Garansi 30 Hari (T&C #4)",
+      "x": 1030,
+      "y": 774,
+      "props": {
+        "fontFamily": "Montserrat",
+        "fontStyle": "Bold",
+        "fontSize": 16,
+        "fill": "#0E3A2F",
+        "textAlign": "left"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Pantau tiket perbaikan bug pasca-rilis sebelum beralih ke opsi paket Retainer bulanan.",
+      "x": 1030,
+      "y": 804,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "Regular",
+        "fontSize": 13,
+        "fill": "#355E52",
+        "textAlign": "left"
+      },
+      "width": 332
+    }
+  },
+  {
+    "command": "shape.rectangle",
+    "params": {
+      "parent": 352,
+      "name": "Btn: Lihat Log Garansi & Retainer",
+      "x": 1030,
+      "y": 912,
+      "width": 332,
+      "height": 46,
+      "props": {
+        "fill": "#FFFFFF",
+        "cornerRadius": 10,
+        "stroke": "#0E3A2F",
+        "strokeWeight": 2
+      }
+    }
+  },
+  {
+    "command": "text.create",
+    "params": {
+      "parent": 352,
+      "text": "Lihat Log Garansi & Retainer",
+      "x": 1044,
+      "y": 926,
+      "props": {
+        "fontFamily": "Inter",
+        "fontStyle": "SemiBold",
+        "fontSize": 14,
+        "fill": "#0E3A2F",
+        "textAlign": "center"
+      },
+      "width": 304
+    }
+  }
+]
