@@ -6,7 +6,10 @@ import { STAGES } from "../lib/stages.js";
 const WA_TEXT = "Halo Tuntung.id, saya ingin menjadwalkan audit gratis 30 menit untuk alur kerja kami.";
 
 function waLink() {
-  const num = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "").replace(/\D/g, "");
+  let num = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "").replace(/\D/g, "");
+  if (num.startsWith("0")) {
+    num = "62" + num.slice(1);
+  }
   return `https://wa.me/${num}?text=${encodeURIComponent(WA_TEXT)}`;
 }
 
